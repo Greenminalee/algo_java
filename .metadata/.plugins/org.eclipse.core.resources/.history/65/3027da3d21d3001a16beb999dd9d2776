@@ -1,0 +1,25 @@
+package algo;
+
+import java.util.LinkedList;
+import java.util.Scanner;
+
+/*
+ * https://www.acmicpc.net/problem/11729
+ */
+public class Algo12 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int N = scan.nextInt(radix);
+	}
+
+	static int solution(int N)
+	{
+		LinkedList<Integer> list1 = new LinkedList<Integer>();
+		LinkedList<Integer> list2 = new LinkedList<Integer>();
+		LinkedList<Integer> list3 = new LinkedList<Integer>();
+		
+		
+		return (0);
+	}
+}

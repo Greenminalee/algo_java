@@ -1,0 +1,27 @@
+package algo;
+
+import java.util.Scanner;
+
+public class Algo04 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		String ox = scan.nextLine();
+		solution(ox);
+		
+	}
+	
+	static int solution(String ox)
+	{
+		for (int i = 0; i <ox.length())
+		{
+			if(ox.charAt(0))
+			{
+				
+			}
+		}
+		
+		return (0);
+	}
+
+}

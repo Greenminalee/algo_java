@@ -1,0 +1,38 @@
+package algo;
+
+import com.sun.management.VMOption.Origin;
+
+public class Algo07 {
+
+	public static void main(String[] args) {		
+		System.out.println(solution("hello hello"));
+	}
+	
+	static int solution(String str)
+	{
+		String origin = "";
+		String tmp = "";
+		int cnt = 0;
+		
+		for(int i = 0; i < str.length(); i++)
+		{
+			
+			if(str.charAt(i) == ' ') 
+			{
+				if(!(origin.equals(tmp)))
+						cnt++;
+				origin = tmp;
+				tmp = "";
+			}
+			else
+				tmp += str.charAt(i);
+			if(i == str.length() - 1) 
+			{
+				if(!(origin.equals(tmp)))
+						cnt++;
+			}
+		}
+		return (cnt);
+	}
+
+}

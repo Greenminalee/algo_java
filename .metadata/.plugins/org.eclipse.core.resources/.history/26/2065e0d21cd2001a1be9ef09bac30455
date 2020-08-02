@@ -1,0 +1,13 @@
+package algo;
+
+public class Algo06 {
+
+	public static void main(String[] args) {
+		
+	}
+	static int solution(int N, int number)
+	{
+		
+		return (0);
+	}
+}

@@ -1,0 +1,31 @@
+package algo;
+
+import java.util.Scanner;
+import java.util.Stack;
+
+/*
+ * https://www.acmicpc.net/problem/11729
+ */
+public class Algo12 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int N = scan.nextInt();
+		Stack<Integer> stack1 = new Stack<>();
+		Stack<Integer> stack2 = new Stack<>();
+		Stack<Integer> stack3 = new Stack<>();
+
+		for(int i = 1; i <= N; i++)
+			list1.add(i);
+		solution(list1, list2, list3, list1.size());
+	}
+	
+	static int solution(LinkedList<Integer> list1, LinkedList<Integer> list2, LinkedList<Integer> list3, int size)
+	{
+		if(list3.size() == size)
+			return (0);
+		
+		
+		return (0);
+	}
+}

@@ -1,0 +1,29 @@
+package algo;
+
+public class Algo03 {
+
+	public static void main(String[] args) {
+		int [] numbers = {3, 3, 1, 1, 1};
+		int target = 3;
+		int sum = 0;
+		System.out.println(dfs(numbers, 0, 0, target));
+	}
+	
+	private static int dfs(int[] numbers, int node, int sum, int target){
+        if(node == numbers.length){
+            if(sum==target)
+                return 1;
+            return 0;
+        }
+        return dfs(numbers, node+1, sum + numbers[node], target) 
+        	 + dfs(numbers, node+1, sum - numbers[node], target);
+    }
+	
+	static int test(int[] number, int i, int sum)
+	{
+		System.out.print(sum);
+		if (i == 5)
+			return sum;
+		return 	test(number, i + 1, sum + number[i]) + test(number, i + 1, sum + number[i]);
+	}	
+}

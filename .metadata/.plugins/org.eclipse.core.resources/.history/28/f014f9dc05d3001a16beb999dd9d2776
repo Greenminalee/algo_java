@@ -1,0 +1,13 @@
+package algo;
+
+/*
+ * https://www.acmicpc.net/problem/2164
+ */
+public class Algo11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package algo;
+
+public class Algo07 {
+
+	public static void main(String[] args) {		
+		
+	}
+	
+	static int solution(String str)
+	{
+		String orign;
+		String tmp;
+		
+		for(int i = 0; i <str.length(); i++)
+		{
+			if(str.charAt(i) == ' ')
+				if(orign.equals(tmp))
+				else
+					origin = "ㅁ";
+					cnt++;
+		}
+		return (0);
+	}
+
+}

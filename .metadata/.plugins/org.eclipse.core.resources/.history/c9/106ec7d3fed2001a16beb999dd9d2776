@@ -1,0 +1,26 @@
+package algo;
+
+/*
+ * https://www.acmicpc.net/problem/2908
+ */
+public class Algo10 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+	
+	static int solution(int a, int b) 
+	{
+		String snum1 = Integer.toString(a);
+		String snum2 = Integer.toString(b);
+		String tmp;
+		
+		for(int i = snum1.length(); i)
+		{
+			
+		}
+		return (0);
+	}
+
+}

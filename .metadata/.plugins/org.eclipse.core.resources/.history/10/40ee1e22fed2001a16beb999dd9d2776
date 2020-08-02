@@ -1,0 +1,20 @@
+package algo;
+
+/*
+ * https://www.acmicpc.net/problem/2908
+ */
+public class Algo10 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+	
+	static int solution(int a, int b) 
+	{
+		Integer.toString(a);
+		
+		return 0
+	}
+
+}

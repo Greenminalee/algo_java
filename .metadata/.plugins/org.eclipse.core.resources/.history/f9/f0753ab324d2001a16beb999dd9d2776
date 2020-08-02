@@ -1,0 +1,16 @@
+package algo;
+
+public class Algo07 {
+
+	public static void main(String[] args) {		
+		
+	}
+	
+	static int solution(String str)
+	{
+		String orign;
+		String tmp;
+		return (0);
+	}
+
+}

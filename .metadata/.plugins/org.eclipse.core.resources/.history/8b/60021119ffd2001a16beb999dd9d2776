@@ -1,0 +1,13 @@
+package algo;
+
+/*
+ * https://www.acmicpc.net/problem/1260
+ */
+public class Algo09 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

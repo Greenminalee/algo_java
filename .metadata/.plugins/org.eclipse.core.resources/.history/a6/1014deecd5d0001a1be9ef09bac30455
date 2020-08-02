@@ -1,0 +1,31 @@
+package algo;
+
+public class Algo03 {
+
+	public static void main(String[] args) {
+		int [] number = {1, 1, 1, 1, 1};
+		int target = 3;
+		test(0);
+		//System.out.println();
+		
+
+	}
+	
+	static int solution(int[] number, int target)
+	{
+		for (int i = 0; i < number.length; i++)
+		{
+			
+		}
+		return 0;
+	}
+	
+	static int test(int[] number, int i)
+	{
+		System.out.println(i);
+		if(i == 5)
+			return 0;
+		number[i] += 
+		return 	test(number, i + 1);
+	}	
+}
