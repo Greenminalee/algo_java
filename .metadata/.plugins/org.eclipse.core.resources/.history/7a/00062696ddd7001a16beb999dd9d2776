@@ -1,0 +1,29 @@
+package algo;
+
+import java.util.Scanner;
+
+/*
+ * 놀라운 문자열
+ * https://www.acmicpc.net/problem/1972
+ */
+public class Algo30 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		String str;
+		str = scan.nextLine();
+		solution(str);
+	}
+
+	static void solution(String str) {
+		int n = 0;
+		int len = str.length();
+		String[] beg;
+		for (int i = 0; i < n; i++) {
+			for (int j = 1; j < n - 1; j++) {
+				str.charAt(i);
+				str.charAt(i + j);
+			}
+		}
+	}
+}

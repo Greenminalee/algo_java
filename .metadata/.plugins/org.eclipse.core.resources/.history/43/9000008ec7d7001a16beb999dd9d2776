@@ -1,0 +1,18 @@
+package algo;
+
+/*
+ * 놀라운 문자열
+ * https://www.acmicpc.net/problem/1972
+ */
+public class Algo30 {
+
+	public static void main(String[] args) {
+		String str;
+		solution();
+	}
+
+	static void solution()
+	{
+		
+	}
+}

@@ -1,0 +1,33 @@
+package algo;
+
+import java.util.LinkedList;
+import java.util.Scanner;
+
+/*
+ * 놀라운 문자열
+ * https://www.acmicpc.net/problem/1972
+ */
+public class Algo30 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		String str;
+		str = scan.nextLine();
+		solution(str);
+	}
+
+	static void solution(String str) {
+		int n = 0;
+		int len = str.length();
+		LinkedList<String> list = new LinkedList<String>();
+		String tmp = "";
+		for (int i = 0; i < n; i++) {
+			tmp = "";
+			for (int j = 1; j < n - 1; j++) {
+				tmp += str.charAt(i);
+				tmp += str.charAt(i + j);
+				list.add(tmp);
+			}
+		}
+	}
+}

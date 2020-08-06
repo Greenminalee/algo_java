@@ -1,0 +1,27 @@
+package algo;
+
+import java.util.Scanner;
+
+/*
+ * https://www.acmicpc.net/problem/2804
+ */
+public class Algo29 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		String str1 = scan.nextLine();
+		String str2 = scan.nextLine()
+		solution(str);
+	}
+	
+	static int solution(String str)
+	{
+		
+		for (int i = 0; )
+		{
+			
+		}
+		return (0);
+	}
+
+}

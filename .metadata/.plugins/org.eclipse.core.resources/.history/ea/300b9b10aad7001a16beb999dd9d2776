@@ -1,0 +1,31 @@
+package algo;
+
+import java.util.Scanner;
+
+/*
+ * https://www.acmicpc.net/problem/2804
+ */
+public class Algo29 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		String str1 = scan.next();
+		String str2 = scan.next();
+		solution(str1, str2);
+	}
+	
+	static int solution(String str1, String str2)
+	{
+		int n = str1.length();
+		int m = str2.length();
+		String[m] array = new String[n][m];
+		
+		
+		for (int i = 0; i < n; i++)
+		{
+			
+		}
+		return (0);
+	}
+
+}
