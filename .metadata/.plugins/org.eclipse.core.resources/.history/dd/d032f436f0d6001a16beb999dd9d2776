@@ -1,0 +1,23 @@
+package algo;
+
+import java.util.Scanner;
+
+/*
+ * https://www.acmicpc.net/problem/11123
+ * 참고1 https://rebas.kr/808
+ */
+public class Algo23 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int H = scan.nextInt();
+		int W = scan.nextInt();
+		String [] grid = new String[H];
+		for (int i = 0; i < H; i++) {
+			for (int j = 0; j < W; j++) {
+				grid[i][j] = scan.next();
+			}
+		}
+
+	}
+}

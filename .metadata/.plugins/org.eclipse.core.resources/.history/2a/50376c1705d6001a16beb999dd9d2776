@@ -1,0 +1,28 @@
+package algo;
+
+/*
+ * https://www.acmicpc.net/problem/3040
+ */
+public class Alogo21 {
+	
+	public static void main(String[] args) {
+		int sum = 0;
+		int cnt = 0;
+		int[] array = new int[7];
+		System.out.println();
+		solution(sum, cnt, array);
+	}
+	
+	static int solution(int sum, int cnt, int array)
+	{
+		for(int i = 0; i < 7; i++) {
+			array[i] = 1;
+		}
+//		if (cnt == 7)
+//			if (sum == 100);
+//				return ();
+				
+		return (1);
+	}
+
+}

@@ -1,0 +1,48 @@
+package algo;
+
+import java.util.Scanner;
+
+/*
+ * https://www.acmicpc.net/problem/11123
+ * 참고1 https://rebas.kr/808
+ */
+public class Algo23 {
+	boolean[][] check = new boolean[100][100];
+	int dx[] = {-1, 0, 1, 0}, dy[] = {0, 1, 0, -1};
+	static int H;
+	static int W;
+	static String [] grid; 
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		H = scan.nextInt();
+		W = scan.nextInt();
+		grid = new String[H];
+		for (int i = 0; i < H; i++) {
+			for (int j = 0; j < W; j++) {
+				grid[i] = scan.next();
+			}
+		}
+	}
+	
+	int dfs(int x, int y) {
+		check[x][y] = true;
+		for (int i = 0; i <4; i++) {
+			int nx = x = dx[i], ny = y +dy[i];
+	        if (nx < 0 || nx >= H || ny < 0 || ny >= W) 
+	        	continue;
+	        if (!check[nx][ny] && grid[nx].charAt(ny) == '#') 
+	        	return dfs(nx, ny);		
+		}
+	}
+	
+	static int solution(String grid, int H, int W)
+	{
+		
+		for (int i = 0; i < H; i++) {
+			for (int j = 0; j < W; j++) {
+				grid[H][W]
+			}
+		}
+		return (0);
+	}
+}

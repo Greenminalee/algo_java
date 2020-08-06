@@ -1,0 +1,25 @@
+package algo;
+
+import java.util.Scanner;
+
+/*
+ * https://www.acmicpc.net/problem/3172
+ */
+public class Algo15 {
+
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner(System.in)
+		String[] strs;
+		
+		
+	}
+	
+	static int solution(String[] strs)
+	{
+		
+		return (0);
+	}
+	
+
+}

@@ -1,0 +1,17 @@
+package algo;
+
+/*
+ * https://www.acmicpc.net/problem/2386
+ */
+public class Algo27 {
+
+	public static void main(String[] args) {
+		String n
+	}
+	
+	static int solution()
+	{
+		return (0);
+	}
+
+}

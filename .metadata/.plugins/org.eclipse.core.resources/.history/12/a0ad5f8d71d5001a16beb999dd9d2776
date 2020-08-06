@@ -1,0 +1,23 @@
+package algo;
+
+/*
+ * https://www.acmicpc.net/problem/5532
+ */
+import java.util.Scanner;
+
+public class Algo15 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int row, col;
+		row = scan.nextInt();
+		col = scan.nextInt();
+		int[][] stickers = new int[row][col];
+		for ()
+	}
+	
+	static int solution()
+	{
+		return (0);
+	}
+}

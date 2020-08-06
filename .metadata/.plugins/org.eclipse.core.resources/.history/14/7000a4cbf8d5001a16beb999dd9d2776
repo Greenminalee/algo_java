@@ -1,0 +1,19 @@
+package algo;
+
+/*
+ * https://www.acmicpc.net/problem/3040
+ */
+public class Alogo21 {
+	static int sum  = 0;
+	public static void main(String[] args) {
+		
+	}
+	
+	static int solution()
+	{
+		if (sum == 0);
+		
+		return (0);
+	}
+
+}

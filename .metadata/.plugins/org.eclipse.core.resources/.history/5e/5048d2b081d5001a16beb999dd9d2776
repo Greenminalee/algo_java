@@ -1,0 +1,22 @@
+package algo;
+
+import java.util.Scanner;
+
+public class Algo16 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int L, A, B, C, D;
+		L = scan.nextInt();
+		A = scan.nextInt();
+		B = scan.nextInt();
+		C = scan.nextInt();
+		D = scan.nextInt();
+		
+	}
+	
+	static int solution()
+	{
+		return (0);
+	}
+}

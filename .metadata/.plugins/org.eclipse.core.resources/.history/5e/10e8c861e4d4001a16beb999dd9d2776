@@ -1,0 +1,30 @@
+package algo;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+/*
+ * https://www.acmicpc.net/problem/5543
+ */
+public class Algo20 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int burger[] = new int[3];
+		int soda[] = new int[2];
+		burger = ;
+		for(int i = 0; i < 3; i++) 
+			burger[i] = scan.nextInt();
+		for(int i = 0; i < 2; i++) 
+			soda[i] = scan.nextInt();
+		solution(burger, soda);
+		System.out.println(burger[0]);
+	}
+	
+	static int solution(int burger[], int soda)
+	{
+		
+		return (0);
+	}
+
+}

@@ -1,0 +1,25 @@
+package algo;
+
+import java.util.Scanner;
+
+/*
+ * 명령 프롬포트
+ * https://www.acmicpc.net/problem/1032
+ */
+public class Algo26 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int n = scan.nextInt();
+		String[] result = new String[n];
+		for
+		
+	}
+	
+	static int solution()
+	{
+		
+		return (0);
+	}
+
+}

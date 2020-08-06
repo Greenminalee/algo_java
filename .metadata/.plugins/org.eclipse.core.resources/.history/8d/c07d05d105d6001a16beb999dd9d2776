@@ -1,0 +1,13 @@
+package algo;
+
+public class Algo24 {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	static int solution()
+	{
+		return (0);
+	}
+}

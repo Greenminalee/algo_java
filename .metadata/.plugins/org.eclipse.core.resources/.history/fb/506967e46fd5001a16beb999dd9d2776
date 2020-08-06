@@ -1,0 +1,22 @@
+package algo;
+
+/*
+ * Algo15.java
+ */
+import java.util.Scanner;
+
+public class Algo15 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int row, col;
+		row = scan.nextInt();
+		col = scan.nextInt();
+		int[][] stickers = new int[row][col];	
+	}
+	
+	static int solution()
+	{
+		return (0);
+	}
+}

@@ -1,0 +1,15 @@
+package algo;
+
+import java.util.Scanner;
+
+/*
+ * https://www.acmicpc.net/problem/11123
+ */
+public class Algo23 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int H = scan.nextInt();
+		
+	}
+}

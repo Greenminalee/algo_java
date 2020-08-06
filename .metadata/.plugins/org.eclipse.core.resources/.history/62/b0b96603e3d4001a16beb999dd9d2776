@@ -1,0 +1,19 @@
+package algo;
+
+/*
+ * https://www.acmicpc.net/problem/5543
+ */
+public class Algo20 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	static int solution()
+	{
+		
+		return 
+	}
+
+}

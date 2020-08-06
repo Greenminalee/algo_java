@@ -1,0 +1,20 @@
+package algo;
+
+import java.util.Scanner;
+
+public class Algo16 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int row, col;
+		row = scan.nextInt();
+		col = scan.nextInt()
+		int[][] stickers = new int[][];
+		
+	}
+	
+	static int solution()
+	{
+		return (0);
+	}
+}

@@ -1,0 +1,21 @@
+package algo;
+
+/*
+ * https://www.acmicpc.net/problem/5543
+ */
+public class Algo20 {
+
+	public static void main(String[] args) {
+		int set[5];
+		for() {
+			
+		}
+	}
+	
+	static int solution()
+	{
+		
+		return (0);
+	}
+
+}

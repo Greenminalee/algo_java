@@ -1,0 +1,36 @@
+package algo;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+/*
+ * https://www.acmicpc.net/problem/2386
+ */
+public class Algo27 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		ArrayList<String> n = new ArrayList<String>();
+		ArrayList<String> list = new ArrayList<String>();
+		int cnt = 0;
+		while (true) {
+			n.add(scan.next());
+			if (n.get(n.size() - 1).equals("#"))
+				break;
+			list.add(scan.next());
+		}
+		for (int i = 0; i < list.size(); i++) {
+			for (int j = 0; j < list.get(i).length(); j++) {
+				System.out.println(n.charAt(0));
+				if (n.get(i).charAt(0) == list.get(i).charAt(j) || n.charAt(0) - 32 == list.get(i).charAt(j))
+					cnt++;
+			}
+		}
+		System.out.println(cnt);
+	}
+
+	static int solution() {
+		return (0);
+	}
+
+}
