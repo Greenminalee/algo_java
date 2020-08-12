@@ -1,0 +1,19 @@
+package algo;
+
+import java.util.Scanner;
+
+public class Algo40 {
+
+	public static void main(String[] args) {
+		solution();
+	}
+
+	static void solution() {
+		Scanner scan = new Scanner(System.in);
+		int papers = scan.nextInt();
+		int i = scan.nextInt(),j = scan.nextInt(), k = scan.nextInt();
+		int[][][] size = new int[i][j][k]; 
+		//검은 도화지의 크
+	}
+
+}

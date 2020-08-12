@@ -1,0 +1,24 @@
+package algo;
+
+import java.util.Scanner;
+import java.util.Set;
+
+public class Algo45 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	static void solution() {
+		Scanner scan = new Scanner(System.in);
+		int n = scan.nextInt(), m = scan.nextInt();
+		String team = scan.nextLine();
+		int membernum = scan.nextInt();
+		Set<String>[] members = new Se();
+		for(int i = 0; i < n; i++) {
+			
+		}
+	}
+
+}

@@ -1,0 +1,27 @@
+package algo;
+
+import java.util.Scanner;
+
+public class Algo33 {
+
+	public static void main(String[] args) {
+		solution();
+		
+	}
+
+	static void solution() {
+		Scanner scan = new Scanner(System.in);
+		int n1 = scan.nextInt(), n2 = scan.nextInt();
+		String ant1 = scan.nextLine();
+		String ant2 = 
+
+		
+		
+	}
+
+}
+
+class Ant {
+	char name;
+	char group;
+}

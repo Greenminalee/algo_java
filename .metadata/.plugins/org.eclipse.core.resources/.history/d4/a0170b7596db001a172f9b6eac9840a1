@@ -1,0 +1,23 @@
+package algo;
+
+import java.util.Scanner;
+
+/*
+ * https://www.acmicpc.net/problem/12756
+ */
+public class Algo41 {
+
+	public static void main(String[] args) {
+		solution();
+	}
+
+	static void solution() {
+		Scanner scan = new Scanner(System.in);
+		int p1a = scan.nextInt(), p1h = scan.nextInt();
+		int p2a = scan.nextInt(), p2h = scan.nextInt();
+		int cnt1, cnt2;
+		
+		while (p1h > 0)
+			
+	}
+}

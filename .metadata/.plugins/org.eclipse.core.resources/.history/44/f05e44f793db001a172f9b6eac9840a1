@@ -1,0 +1,16 @@
+package algo;
+
+/*
+ * https://www.acmicpc.net/problem/12756
+ */
+public class Algo41 {
+
+	public static void main(String[] args) {
+		solution();
+	}
+
+	static void solution() {
+		int[][] player = new int[2][2];
+		
+	}
+}

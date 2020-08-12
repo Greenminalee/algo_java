@@ -1,0 +1,41 @@
+package algo;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+/*
+ * https://www.acmicpc.net/problem/1871
+ */
+public class Algo34 {
+
+	public static void main(String[] args) {
+		solution();
+	}
+
+	static void solution() {
+		Scanner scan = new Scanner(System.in);
+		int n = scan.nextInt();
+		String num = "";
+		int sum = 0;
+		ArrayList<String> list = new ArrayList<String>();
+		for(int i = 0; i < n; i++) {
+			list.add(scan.next());
+		}
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < list.get(i).length(); j++) {
+				if(list.get(i).charAt(j) == '-')
+					break;
+				if(list.get(i).charAt(j) >= 'A' && list.get(i).charAt(j) <= 'Z')
+					sum += (int) ((list.get(i).charAt(j) - 'A') * Math.pow(26, 2 - j));
+				if(list.get(i).charAt(j) >= '0' && list.get(i).charAt(j) <= '9')
+					num = charAt
+			}
+			System.out.println(sum + list.get(i));
+
+			sum = 0;
+		}
+		
+		
+	}
+	
+}

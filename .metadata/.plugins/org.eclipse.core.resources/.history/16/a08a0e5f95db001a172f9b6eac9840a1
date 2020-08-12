@@ -1,0 +1,29 @@
+package algo;
+
+import java.util.Scanner;
+
+/*
+ * https://www.acmicpc.net/problem/12756
+ */
+public class Algo41 {
+
+	public static void main(String[] args) {
+		solution();
+	}
+
+	static void solution() {
+		Scanner scan = new Scanner(System.in);
+		int p1a = scan.nextInt(), p2h = scan.nextInt();
+		
+		int p2a, p2h;
+		
+		for(int i = 0; i < 2; i++) {
+			player[i][0] = scan.nextInt();
+			player[i][1] = scan.nextInt();
+		}
+		if (player[1][1] / player[0][0] == player[0][1] / player[1][0]) {
+			if (player[1][1] / player[0][0] == player[0][1] / player[1][0])
+				
+		}
+	}
+}

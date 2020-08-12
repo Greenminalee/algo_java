@@ -1,5 +1,6 @@
 package algo;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Scanner;
 /*
@@ -11,9 +12,15 @@ public class Algo30 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		String str;
-		str = scan.nextLine();
-		solution(str);
+		ArrayList<String> strs = new ArrayList<String>();
+		String str = "";
+		while(!str.equals("*")) {
+			str = scan.nextLine();
+			strs.add(str);
+		}
+		for(int i = 0; i < strs.size() - 1; i++) {
+			solution(strs.get(i));
+		}
 	}
 
 	static void solution(String str) {

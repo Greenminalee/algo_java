@@ -1,0 +1,20 @@
+package algo;
+
+import java.util.Scanner;
+
+public class Algo40 {
+
+	public static void main(String[] args) {
+		solution();
+	}
+
+	static void solution() {
+		Scanner scan = new Scanner(System.in);
+		int p = scan.nextInt();
+		while
+		int[][] size = new int[p][p];
+		for() {
+		//검은 도화지의 크
+	}
+
+}

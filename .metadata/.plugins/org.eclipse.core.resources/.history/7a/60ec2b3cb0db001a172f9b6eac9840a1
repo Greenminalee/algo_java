@@ -1,0 +1,28 @@
+package algo;
+
+import java.util.Scanner;
+
+public class Algo42 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	static void solution() {
+		Scanner scan = new Scanner(System.in);
+		int n = scan.nextInt();
+		int nominees = scan.nextInt();
+		int[] frame = new int[n];
+		
+		for (int i = 0; i < nominees) {
+			
+		}
+		
+	}
+	
+	class student{
+		int cnt;
+		int date;
+	}
+}

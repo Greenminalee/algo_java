@@ -1,0 +1,40 @@
+package algo;
+
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class Algo42 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		solution();
+
+	}
+
+	static void solution() {
+		Scanner scan = new Scanner(System.in);
+		int n = scan.nextInt();
+		int nominees = scan.nextInt();
+		int nominee;
+		Map<Integer, Integer> frame = new LinkedHashMap<Integer, Integer>();
+		for (int i = 0; i < nominees; i++) {
+			// 틀의 개수 부족할
+			nominee = scan.nextInt();
+			if (frame.containsKey(i)) {
+				System.out.print("a");
+				frame.replace(nominee, frame.get(i) + 1);
+			} else if (frame.size() >= n) {
+				System.out.print("b");
+				frame.remove(0);
+				frame.put(nominee, 1);
+			} else {
+				System.out.print("c");
+				frame.put(nominee, 1);
+			}
+		}
+
+		System.out.println(frame(0));
+	}
+}

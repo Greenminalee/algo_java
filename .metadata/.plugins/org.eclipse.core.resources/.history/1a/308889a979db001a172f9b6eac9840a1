@@ -1,0 +1,33 @@
+package algo;
+
+import java.util.Scanner;
+
+public class Algo40 {
+
+	public static void main(String[] args) {
+		solution();
+	}
+
+	static void solution() {
+		Scanner scan = new Scanner(System.in);
+		int p = scan.nextInt();
+		int h, w;
+		int[][] map = new int[100][100];
+		for (int i = 0; i < p; i++) {
+			h = scan.nextInt();
+			w = scan.nextInt();
+			for (int j = 0; j < 10; j++) {
+				map[h + j][w + j] = 1;
+			}
+
+		}
+		for(int i = 0; i < 100; i++) {
+			for(int j = 0; j < 100; j++) {
+				if (map)
+			}	
+		}
+
+		// 검은 도화지의 크
+	}
+
+}

@@ -1,0 +1,25 @@
+package algo;
+
+import java.util.LinkedList;
+import java.util.Scanner;
+
+/*
+ * https://www.acmicpc.net/problem/1793
+ */
+
+public class Algo38 {
+
+	public static void main(String[] args) {
+
+	}
+
+	static void solution() 
+	{
+		Scanner scan = new Scanner(System.in);
+		String num1 = scan.next();
+		String num2 = scan.next();
+		
+		for
+		
+	}
+}

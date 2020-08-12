@@ -1,0 +1,29 @@
+package algo;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class Algo42 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	static void solution() {
+		Scanner scan = new Scanner(System.in);
+		int n = scan.nextInt();
+		int nominees = scan.nextInt();
+		Map<Integer, Integer> frame = new HashMap<Integer, Integer>();
+		for (int i = 0; i < nominees; i++) {
+			frame.containsKey(key)
+		}
+		
+	}
+	
+	class student{
+		int cnt;
+		int date;
+	}
+}

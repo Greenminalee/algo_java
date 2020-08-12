@@ -1,0 +1,32 @@
+package algo;
+
+import java.util.Scanner;
+
+/*
+ * https://www.acmicpc.net/problem/2953
+ */
+public class Algo36 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		solution();
+	}
+
+	static void solution() {
+		Scanner scan = new Scanner(System.in);
+		int sum = 0;
+		int[] cooker = new int[2];
+		for (int i = 0; i < 5; i++) {
+			for (int j = 0; j < 4; j++) {
+				sum += scan.nextInt();
+			}
+			if (sum > cooker[1]) {
+				cooker[0] = i + 1;
+				cooker[1] = sum;
+			}
+			sum = 0;
+		}
+		System.out.println(cooker[0] + " " + cooker[1]);
+	}
+
+}

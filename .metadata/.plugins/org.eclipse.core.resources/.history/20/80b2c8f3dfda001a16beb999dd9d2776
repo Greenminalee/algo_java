@@ -1,0 +1,20 @@
+package algo;
+
+import java.util.LinkedList;
+
+/*
+ * https://www.acmicpc.net/problem/1793
+ */
+
+public class Algo38 {
+
+	public static void main(String[] args) {
+
+	}
+
+	static void solution() 
+	{
+		LinkedList<Integer> list = new LinkedList<Integer>();
+		
+	}
+}

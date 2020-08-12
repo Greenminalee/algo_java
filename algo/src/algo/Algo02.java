@@ -1,6 +1,6 @@
 package algo;
 /*
- https://www.acmicpc.net/problem/11866
+ * https://www.acmicpc.net/problem/11866
  */
 import java.util.*;
 public class Algo02 {

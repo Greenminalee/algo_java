@@ -1,0 +1,19 @@
+package algo;
+
+import java.util.Scanner;
+
+public class Algo45 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	static void solution() {
+		Scanner scan = new Scanner(System.in);
+		int n = scan.nextInt(), m = scan.nextInt();
+		String teamname
+		
+	}
+
+}

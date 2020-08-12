@@ -1,0 +1,52 @@
+package algo;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.Scanner;
+import java.util.Set;
+
+public class Algo45 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		solution();
+	}
+
+	static void solution() {
+		Scanner scan = new Scanner(System.in);
+		int members_num = 0;
+		int n = scan.nextInt(), m = scan.nextInt();
+		ArrayList<String> team = new ArrayList<String>();
+		Set<String>[] members = new HashSet[n];
+
+		for (int i = 0; i < n; i++) {
+			members[i] = new HashSet<String>();
+			team.add(scan.next());
+			members_num = scan.nextInt();
+			for (int j = 0; j < members_num; j++) {
+				members[i].add(scan.next());
+			}
+		}
+		
+		for (int i = 0; i < m; i++) {
+			int question = 0;
+			String name = scan.next();
+			if (question == 0) {
+				LinkedList<String> list = new LinkedList<String>(members[team.indexOf(name)]);
+				Collections.sort(list);
+				System.out.println(list);
+			} 
+			else if (question == 1){
+				for (int j = 0; j < members_num; j++) {
+					members[j].contains("name")
+				}
+		}
+		System.out.println(members[team.indexOf("twice")]);
+
+	}
+
+}

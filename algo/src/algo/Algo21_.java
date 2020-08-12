@@ -1,0 +1,27 @@
+package algo;
+
+/*
+ * https://www.acmicpc.net/problem/3040
+ */
+public class Algo21_ {
+	
+	public static void main(String[] args) {
+		int sum = 0;
+		int cnt = 0;
+		int[] array = new int[7];
+		solution(sum, cnt, array);
+	}
+	
+	static int solution(int sum, int cnt, int[] array)
+	{
+		for(int i = 0; i < 7; i++) {
+			array[i] = i;
+		}
+//		if (cnt == 7)
+//			if (sum == 100);
+//				return ();
+				
+		return (1);
+	}
+
+}

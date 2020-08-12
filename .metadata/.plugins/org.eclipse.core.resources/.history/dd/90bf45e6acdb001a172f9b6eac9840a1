@@ -1,0 +1,18 @@
+package algo;
+
+public class Algo42 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	static void solution() {
+		int[] frame;
+	}
+	
+	class student{
+		int cnt;
+		int date;
+	}
+}

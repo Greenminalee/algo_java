@@ -1,0 +1,42 @@
+package algo;
+
+import java.util.Scanner;
+
+/*
+ * 성지키기.
+ * https://www.acmicpc.net/problem/1236
+ */
+public class Algo32 {
+
+	public static void main(String[] args) {
+		
+		solution();
+	}
+
+	static void solution() {
+		// 가로탐색
+		Scanner scan = new Scanner(System.in);
+		int rc = 0, cc = 0;
+
+		int n = scan.nextInt();
+		int m = scan.nextInt();
+		String[] map = new String[n];
+		int[] row = new int[n];
+		int[] col = new int[m];
+		for (int i = 0; i < n; i++) {
+			map[i] = scan.next().charAt(0);
+			
+			for (int j = 0; j < m; j++) {
+				if (map[i][j] == 'x') {
+					row[i] = 1;
+					col[j] = 1;
+				}
+			}
+		}
+		for (int i : col) 
+			if(col[i] == 0) cc++;
+		for (int i : row) 
+			if(row[i] == 0)rc++;
+		System.out.println(rc > cc ? rc : cc);
+	}
+}

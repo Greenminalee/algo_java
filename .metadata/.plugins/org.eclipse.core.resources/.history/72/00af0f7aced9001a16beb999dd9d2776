@@ -1,0 +1,27 @@
+package algo;
+
+import java.util.LinkedList;
+import java.util.Scanner;
+
+public class Algo33 {
+
+	public static void main(String[] args) {
+		
+	}
+
+	static void solution() {
+		Scanner scan = new Scanner(System.in);
+		int n1 = scan.nextInt(), n2 = scan.nextInt();
+		Ant[] ant1 = new Ant[4];
+		Ant[] ant2 = new Ant[4];
+		()
+		
+	}
+
+}
+
+class Ant 
+{
+	char name;
+	int group;
+}

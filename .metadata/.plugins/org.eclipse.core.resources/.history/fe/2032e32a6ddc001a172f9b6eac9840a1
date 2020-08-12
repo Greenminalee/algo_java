@@ -1,0 +1,14 @@
+package algo;
+
+/*
+ * https://www.acmicpc.net/problem/2902
+ */
+public class Algo44 {
+
+	public static void main(String[] args) {
+
+	}
+
+	static void solution()
+	{
+}
